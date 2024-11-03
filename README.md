@@ -4,10 +4,10 @@
 * Developers looking to build their presence may want to focus on these languages or engage more actively to grow their networks.
 
 
-#Project Overview
+# Project Overview
 This repository contains data scraped from the GitHub API, specifically for users in Berlin with more than 200 followers and up to 500 of their recent public repositories. The goal was to gather insights about Berlin's GitHub community, highlighting key attributes, trends, and areas for potential developer growth.
 
-#Data Files
+# Data Files
 The dataset includes two CSV files:
 
 users.csv: Contains user data, including GitHub login, name, company, location, bio, and follower/following counts.
