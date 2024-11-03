@@ -11,16 +11,18 @@ This repository contains data scraped from the GitHub API, specifically for user
 The dataset includes two CSV files:
 
 users.csv: Contains user data, including GitHub login, name, company, location, bio, and follower/following counts.
+
 repositories.csv: Contains data on each user's public repositories, with details such as repository name, language, stars, and license information.
-Setup Instructions
+
+# Setup Instructions
 Clone this repository.
 Make sure you have Python installed along with requests and pandas libraries.
 Run the provided script github_data_scraper.py to fetch data from the GitHub API.
-Code Structure
+
+
+# Code Structure
 The main script that interacts with the GitHub API, fetches data, and writes it to CSV files.
 Data Cleaning: Company names are standardized, and extraneous whitespace is removed. Email fields are left empty where data is unavailable.
 Usage
 To analyze the data, run additional analysis scripts included or use the raw data in the CSV files for custom insights.
 
-Additional Insights
-Beyond the main findings, additional trends in user activity, follower ratios, and repository language distribution are included in the analysis folder.
